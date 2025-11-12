@@ -5,8 +5,9 @@ monthly_expenses=int(input("enter your total monthly expenses: "))
 #Calculation of Monthly Savings:
 monthly_savings= monthly_income - monthly_expenses
 #projecting Annual Savings after one year, incorporating the interest
-interest_rate=5%     #This is simple annual interest rate
-projected_savings= monthly_savings * 12 + (monthly_savings * 12 * 0.05))
+# Assume an annual interest rate of 5%
+interest_rate=0.05
+projected_savings = (monthly_savings * 12) + (monthly_savings * 12 * interest_rate)
 # Display results
 print("\n--- Savings Summary ---")
 print(f"Your monthly savings are: ${monthly_savings:.2f}")
