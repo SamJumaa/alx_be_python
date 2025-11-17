@@ -4,6 +4,8 @@ num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 #Ask for the type of operation to performe
 operation=input("Choose the operation (+, -, *, /): ")
+# Initialize result
+result = None
 #Perform the Calculation Using match-case
 match operation:
     case "+":
