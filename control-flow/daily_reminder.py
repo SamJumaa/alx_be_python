@@ -17,5 +17,5 @@ match priority:
 if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 # Print the customized reminder
-print(reminder)              
+print("Reminder: {}".format(reminder))              
  
