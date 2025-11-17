@@ -2,7 +2,7 @@
 #  Prompt User for Pattern Size:
 size = int(input("Enter the size of the pattern: "))
 # Validate that the input is positive
-if size <= 0
+if size <= 0:
     print("Error: Please enter a positive integer.")
     exit()
 # Initialize row counter
