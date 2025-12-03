@@ -16,7 +16,6 @@ class BankAccount:
             return True
          
         else:
-            print("Insufficient funds")
             return False
         
        
