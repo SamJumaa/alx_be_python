@@ -1,5 +1,4 @@
-class Bank_Account:
-
+class BankAccount:
     """Class representing bank_account"""
 
     def __init__(self, initial_balance):
