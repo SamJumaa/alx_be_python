@@ -1,3 +1,4 @@
+"""Module providing a function to perform bank account operations."""
 import sys
 from bank_account import BankAccount
 
