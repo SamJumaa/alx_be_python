@@ -13,7 +13,7 @@ class EBook(Book):
         self.file_size = file_size
 
     def __str__(self):
-        return f"EBook: {self.title} by {self.author}, | File Size: {self.file_size} MB"
+        return f"EBook: {self.title} by {self.author},  File Size: {self.file_size} MB"
         
 #creating Printbook child class
 
@@ -23,7 +23,7 @@ class PrintBook(Book):
         self.page_count = page_count
 
     def __str__(self):
-        return f"PrintBook: {self.title} by {self.author}, |page count: {self.page_count}"
+        return f"PrintBook: {self.title} by {self.author}, page count: {self.page_count}"
     
 # Composition Class: Library
 class Library:
