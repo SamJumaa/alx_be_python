@@ -13,7 +13,7 @@ class Ebook(Book):
         super().__init__(title, author)   ## Call base class constructor
         self.file_size = file_size
 
-     def __str__(self):
+    def __str__(self):
         return f"EBook: {self.title} by {self.author} | File Size: {self.file_size} MB"
         
  #creating Printbook child class
@@ -29,7 +29,7 @@ class PrintBook(Book):
 class Library:
     def __init__(self):
         self.books = []   # List to store books (composition)
-        
+
     def add_book(self, book):
         self.books.append(book)
 
