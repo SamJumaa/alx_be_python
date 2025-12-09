@@ -34,7 +34,6 @@ class Library:
         self.books.append(book)
 
     def list_books(self):
-        print("\n--- Library Collection ---")
         for book in self.books:
             print(book)
 
