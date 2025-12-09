@@ -6,9 +6,8 @@ class Book:
     def __str__(self):
         return f"book {self.title } by {self.author}"
     
-    #creating Ebook child class
-
-class Ebook(Book):
+#creating Ebook child class
+class EBook(Book):
     def __init__(self, title, author, file_size: int):
         super().__init__(title, author)   ## Call base class constructor
         self.file_size = file_size
@@ -16,7 +15,7 @@ class Ebook(Book):
     def __str__(self):
         return f"EBook: {self.title} by {self.author} | File Size: {self.file_size} MB"
         
- #creating Printbook child class
+#creating Printbook child class
 
 class PrintBook(Book):
     def __init__(self, title, author, page_count :int):
